@@ -1,0 +1,33 @@
+body {
+	background-color: black;
+	margin: 5%;
+	height: 100%;
+}
+
+.game-title {
+	margin-top: 15%;
+	font-family: monospace;
+	font-size: 6em;
+	animation: mymove 5s infinite;
+	-webkit-animation: mymove 5s infinite;
+}
+
+.btn-iniciar {
+	width: 90%;
+	position: absolute;
+	bottom: 3em;
+}
+
+@-webkit-keyframes mymove {
+    from {color: red;}
+    33% {color: blue;}
+	66% {color: green;}
+	to {color: red}
+}
+
+@keyframes mymove {
+    from {color: red;}
+    33% {color: blue;}
+	66% {color: green;}
+	to {color: red}
+}
