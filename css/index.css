@@ -15,7 +15,7 @@ body {
 .btn-iniciar {
 	width: 90%;
 	position: absolute;
-	bottom: 3em;
+	bottom: 2em;
 }
 
 @-webkit-keyframes mymove {
